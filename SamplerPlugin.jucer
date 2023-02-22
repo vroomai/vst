@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT name="VroomAI" version="1.0.0" companyWebsite="http://juce.com"
+              displaySplashScreen="1" defines="PIP_JUCE_EXAMPLES_DIRECTORY=L1VzZXJzL21vbnR5L0Rlc2t0b3AvdW50aXRsZWQgZm9sZGVyL0pVQ0UvZXhhbXBsZXM="
+              projectType="audioplug" pluginAUIsSandboxSafe="1" pluginManufacturer="JUCE"
+              pluginFormats="buildVST3,buildAU,buildStandalone" pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="1" id="xPEfNl"
+              jucerFormatVersion="1" companyName="VroomAI" cppLanguageStandard="20">
+  <MAINGROUP id="A0HTBl" name="VroomAI">
+    <GROUP id="{0B317BDB-0831-DE4A-030D-AAE3056E4EDB}" name="Source">
+      <FILE id="cSq4f2" name="Gradio.h" compile="0" resource="0" file="Source/Gradio.h"/>
+      <FILE id="SlOcoC" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="a2qG9v" name="SamplerPluginDemo.h" compile="0" resource="0"
+            file="Source/SamplerPluginDemo.h"/>
+    </GROUP>
+    <GROUP id="MDV83v" name="Assets">
+      <FILE id="P0hg6P" name="drum.mp4" compile="0" resource="1" file="Resources/drum.mp4"/>
+      <FILE id="QaWY7B" name="Tinos-BoldItalic.ttf" compile="0" resource="1"
+            file="Resources/Tinos-BoldItalic.ttf"/>
+      <FILE id="ySuwG9" name="NunitoSans-Regular.ttf" compile="0" resource="1"
+            file="Resources/NunitoSans-Regular.ttf"/>
+      <FILE id="zlVDZN" name="redo.svg" compile="0" resource="1" file="Resources/redo.svg"/>
+      <FILE id="IIRO45" name="undo.svg" compile="0" resource="1" file="Resources/undo.svg"/>
+      <FILE id="s8fNht" name="gear.svg" compile="0" resource="1" file="Resources/gear.svg"/>
+      <FILE id="G0Q3LS" name="DemoUtilities.h" compile="0" resource="0" file="Source/DemoUtilities.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="SamplerPlugin"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="SamplerPlugin"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path=""/>
+        <MODULEPATH id="juce_audio_devices" path=""/>
+        <MODULEPATH id="juce_audio_formats" path=""/>
+        <MODULEPATH id="juce_audio_plugin_client" path=""/>
+        <MODULEPATH id="juce_audio_processors" path=""/>
+        <MODULEPATH id="juce_audio_utils" path=""/>
+        <MODULEPATH id="juce_core" path=""/>
+        <MODULEPATH id="juce_data_structures" path=""/>
+        <MODULEPATH id="juce_events" path=""/>
+        <MODULEPATH id="juce_graphics" path=""/>
+        <MODULEPATH id="juce_gui_basics" path=""/>
+        <MODULEPATH id="juce_gui_extra" path=""/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="SamplerPlugin"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="SamplerPlugin"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path=""/>
+        <MODULEPATH id="juce_audio_devices" path=""/>
+        <MODULEPATH id="juce_audio_formats" path=""/>
+        <MODULEPATH id="juce_audio_plugin_client" path=""/>
+        <MODULEPATH id="juce_audio_processors" path=""/>
+        <MODULEPATH id="juce_audio_utils" path=""/>
+        <MODULEPATH id="juce_core" path=""/>
+        <MODULEPATH id="juce_data_structures" path=""/>
+        <MODULEPATH id="juce_events" path=""/>
+        <MODULEPATH id="juce_graphics" path=""/>
+        <MODULEPATH id="juce_gui_basics" path=""/>
+        <MODULEPATH id="juce_gui_extra" path=""/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+</JUCERPROJECT>
