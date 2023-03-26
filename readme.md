@@ -14,15 +14,17 @@ In the last few months the field of text-to-audio AI models has [rapidly evolved
 VroomAI was created as a submission to the [2023 Neural Audio Plugin Competition](https://www.theaudioprogrammer.com/neural-audio).
 
 ## Usage
-Currently the audio samples are saved into a user-specified directory and can additionally be played at various pitches in DAW.
+Audio samples are saved into a user-specified directory and can be played at various pitches inside the DAW.
 
 ## Available Models
 - [AudioLDM (Haohe Liu, Zehua Chen, Yi Yuan, Xinhao Mei, Xubo Liu, Danilo Mandic, Wenwu Wang, Mark D. Plumbley).](https://github.com/haoheliu/AudioLDM)
 - *[MusicLM](https://google-research.github.io/seanet/musiclm/examples/) (Internal implementation coming soon)*
 
-## Downloads
+## Installation
 
-- MacOS VST3 Download
+At the moment the quickest way to get things working is to directly build the VST on your machine so we don't need to worry about code signing. A public inference server will be available shortly at vroomai.com but in the meantime you can host your own using [Haohe Liu's app.py](https://github.com/haoheliu/AudioLDM/blob/main/app.py) with the api enabled.
+
+This plugin has only ever been tested on Reaper and Ableton on MacOS (M2).
 
 ## Authors
 [Monty Anderson](https://montyanderson.net) ([Prodia Labs](https://prodia.com))
