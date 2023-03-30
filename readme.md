@@ -29,4 +29,4 @@ This plugin has only ever been tested on Reaper and Ableton on MacOS (M2).
 ## Authors
 [Monty Anderson](https://montyanderson.net) ([Prodia Labs](https://prodia.com))
 
-[Barney Hill](https://wwww.barneyhill.com) (University of Oxford)
+[Barney Hill](https://www.barneyhill.com) (University of Oxford)
