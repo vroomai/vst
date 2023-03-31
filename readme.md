@@ -26,6 +26,10 @@ At the moment the quickest way to get things working is to directly build the VS
 
 This plugin has only ever been tested on Reaper and Ableton on MacOS (M2).
 
+## Discord
+
+If you want to ask any questions or follow updates - [join the discord](https://discord.gg/Ua8sqvjher)!
+
 ## Authors
 [Monty Anderson](https://montyanderson.net) ([Prodia Labs](https://prodia.com))
 
