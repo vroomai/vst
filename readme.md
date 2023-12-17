@@ -1,7 +1,10 @@
 
 <h1 align="center"; style = font-size: 500px; > VroomAI </h1>
 
-<h3 align="center"> Generate sounds from words. Directly in your DAW. </h3>
+<h3 align="center">
+	Generate sounds from words. Directly in your DAW.<br>
+	Featured in Ableton's blog post, <a href="https://www.ableton.com/en/blog/ai-and-music-making-the-state-of-play/">AI and Music-Making</a>.
+</h3>
 
 <br>
 <p align="center">
