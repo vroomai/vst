@@ -3,7 +3,8 @@
 
 <h3 align="center">
 	Generate sounds from words. Directly in your DAW.<br>
-	Featured in Ableton's blog post, <a href="https://www.ableton.com/en/blog/ai-and-music-making-the-state-of-play/">AI and Music-Making</a>.
+	Featured in Ableton's blog post, <a href="https://www.ableton.com/en/blog/ai-and-music-making-the-state-of-play/">AI and Music-Making</a>.<br>
+	Checkout our latest project, <a href="https://github.com/vroomai/live">Vroom Live</a>.
 </h3>
 
 <br>
